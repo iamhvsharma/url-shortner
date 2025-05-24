@@ -1,5 +1,8 @@
 import express from "express";
 import { nanoid } from "nanoid";
+import connectDB from "./src/config/db.config.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 // Creating an Express application
 const app = express();
